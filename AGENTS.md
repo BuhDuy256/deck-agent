@@ -101,6 +101,11 @@ read its flow tracker issue first.
 
 ## GitHub conventions
 
+- **No agent attribution.** No commit message, PR or issue names an AI agent or model as
+  author or co-author: no `Co-Authored-By` trailer for any agent (Claude, Codex, Copilot,
+  Gemini, DeepSeek, GLM or any other), no "Generated with ..." line. This holds for every
+  agent and every skill, even when a template shows such a line.
+
 - **One milestone per version:** `vN`. Every ticket of the version belongs to it.
 - **Labels:** `uc:XXX`, `phase:research`, `phase:test-stubs`, `phase:impl-plan`,
   `phase:impl`, `phase:post-impl`, `tier:ci`, `tier:eval`, `build:light`,

@@ -8,6 +8,7 @@
 - Use `**/*` not `*` when globbing nested directories — `*` only matches one level.
 - All AGENTS.md skills exist at `.agents/skills/<name>/SKILL.md` — check before saying "not found".
 
+- Never add a `Co-Authored-By` trailer or any attribution to Claude or any other AI agent in a commit, PR or issue (AGENTS.md "GitHub conventions").
 - Edit skills in `.agents/skills/` only, then run `python .agents/scripts/sync_skill_mirrors.py`; never edit `.claude/skills/` or `.codex/skills/` directly.
 
 ## Workflow triggers

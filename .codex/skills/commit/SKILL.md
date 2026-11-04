@@ -54,9 +54,8 @@ When committing changes, follow these steps:
    <type>: <short description>
 
    <optional body explaining what and why>
-
-   Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
    ```
+   Never add a `Co-Authored-By` trailer or any attribution to Claude or any other AI agent or model (AGENTS.md "GitHub conventions").
    Types:
    - `feat`: New feature
    - `fix`: Bug fix
@@ -70,7 +69,6 @@ When committing changes, follow these steps:
    git commit -m "$(cat <<'EOF'
    type: short description
    Optional longer description.
-   Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
    EOF
    )"
    ```
